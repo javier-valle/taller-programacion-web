@@ -2,12 +2,12 @@
 
 Landing page de restaurante gourmet. Proyecto para el curso **Taller de Programación Web**, UTP.
 
-Rediseñado con el framework de diseño **Bl4z3** — dark mode, tipografía Space Grotesk, layout fluido sin `max-width`, animaciones de scroll reveal y sistema de design tokens.
+Diseñado por **Javier Valle** — dark mode, tipografía Space Grotesk, layout fluido sin `max-width`, animaciones de scroll reveal y sistema de design tokens.
 
 ## Qué incluye
 
 - **HTML semántico**: meta tags (description, Open Graph, Twitter Card, canonical), viewport, favicon, schema JSON-LD (Restaurant + FAQPage).
-- **Design System Bl4z3**: tokens CSS (colores, radios, sombras, spacing, motion), paleta oscura con acento dorado, radios redondeados.
+- **Design System propio**: tokens CSS (colores, radios, sombras, spacing, motion), paleta oscura con acento dorado, radios redondeados.
 - **Layout fluido**: sin `max-width` fijo, Grid + `clamp()`, responsive con `minmax()`.
 - **SVG inline**: todos los íconos son SVG inline con `stroke="currentColor"` (sin emojis).
 - **Scroll reveal**: `IntersectionObserver`, animaciones `fade-up/down/left/right/scale-in` con stagger, respeta `prefers-reduced-motion`.
