@@ -40,7 +40,9 @@ taller-programacion-web/
 
 ## Cómo verlo
 
-Abrir `index.html` en el navegador. No requiere instalación ni dependencias.
+**Online**: [https://htmlpreview.github.io/?https://raw.githubusercontent.com/javier-valle/taller-programacion-web/main/taller-programacion-web/index.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/javier-valle/taller-programacion-web/main/taller-programacion-web/index.html)
+
+**Local**: Abrir `index.html` en el navegador. No requiere instalación ni dependencias.
 
 ## Criterios de evaluación
 
