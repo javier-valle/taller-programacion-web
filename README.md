@@ -7,7 +7,8 @@ Diseñado por **Javier Valle** — dark mode, tipografía Space Grotesk, layout 
 ## Qué incluye
 
 - **HTML semántico**: meta tags (description, Open Graph, Twitter Card, canonical), viewport, favicon.
-- **Design System propio**: tokens CSS (colores, radios, sombras, spacing, motion), paleta oscura con acento dorado, radios redondeados.
+- **CSS modular**: separado en `base.css` (tokens y reset), `layout.css` (estructura y navegación) y `components.css` (tarjetas, tablas, formulario, multimedia).
+- **JS modular**: separado en `interaction.js`, `reveal.js`, `form.js`, `media.js` y `main.js` (loader).
 - **Layout fluido**: sin `max-width` fijo, Grid + `clamp()`, responsive con `minmax()`.
 - **SVG inline**: todos los íconos son SVG inline con `stroke="currentColor"` (sin emojis).
 - **Scroll reveal**: `IntersectionObserver`, animaciones `fade-up/down/left/right/scale-in` con stagger, respeta `prefers-reduced-motion`.
@@ -26,16 +27,21 @@ Diseñado por **Javier Valle** — dark mode, tipografía Space Grotesk, layout 
 taller-programacion-web/
 ├── index.html
 ├── README.md
-└── assets/
-    ├── css/
-    │   └── style.css
-    ├── js/
-    │   └── app.js
-    ├── images/
-    │   ├── lcs-logo.svg
-    │   └── favicon.ico
-    └── video/
-        └── (videos locales)
+├── assets/
+│   ├── css/
+│   │   ├── base.css         (variables, reset, tipografía, utilities)
+│   │   ├── layout.css       (nav, hero, grid, secciones, contenedores)
+│   │   └── components.css   (cards, tablas, botones, formulario, FAQ, multimedia)
+│   ├── js/
+│   │   ├── interaction.js   (nav, mobile, scroll, parallax, progress, whatsapp, highlight)
+│   │   ├── reveal.js        (animaciones de scroll reveal)
+│   │   ├── form.js          (validación y feedback del formulario)
+│   │   ├── media.js         (pausa de loops animados)
+│   │   └── main.js          (loader / inicializador)
+│   ├── images/
+│   │   └── lcs-logo.svg
+│   └── video/
+│       └── (videos locales)
 ```
 
 ## Cómo verlo
