@@ -6,7 +6,7 @@ Diseñado por **Javier Valle** — dark mode, tipografía Space Grotesk, layout 
 
 ## Qué incluye
 
-- **HTML semántico**: meta tags (description, Open Graph, Twitter Card, canonical), viewport, favicon, schema JSON-LD (Restaurant + FAQPage).
+- **HTML semántico**: meta tags (description, Open Graph, Twitter Card, canonical), viewport, favicon.
 - **Design System propio**: tokens CSS (colores, radios, sombras, spacing, motion), paleta oscura con acento dorado, radios redondeados.
 - **Layout fluido**: sin `max-width` fijo, Grid + `clamp()`, responsive con `minmax()`.
 - **SVG inline**: todos los íconos son SVG inline con `stroke="currentColor"` (sin emojis).
@@ -15,7 +15,7 @@ Diseñado por **Javier Valle** — dark mode, tipografía Space Grotesk, layout 
 - **Hero secuencial**: entrada escalonada tag → título → descripción → CTA.
 - **Formulario funcional**: reserva de mesa con validación JS + feedback visual (shake, estados inválidos, success temporal).
 - **FAQ con `<details>`**: acordeón nativo animado con chevron rotatorio.
-- **SEO completo**: schema LocalBusiness/Restaurant, FAQ schema, Open Graph, Twitter Card, canonical, `lang="es"`.
+- **SEO completo**: Open Graph, Twitter Card, canonical, `lang="es"`.
 - **Accesibilidad**: `aria-label`, `aria-expanded`, `role="alert"`, `:focus-visible`, contraste AA, `prefers-reduced-motion`.
 - **Sección Nuestro Chef**: perfil del chef ejecutivo con foto, biografía, especialidades (badges) y premios.
 - **Multimedia**: sección Experiencia Visual con video embebido (YouTube), 3 tarjetas de experiencias (música ambiente, Chef's Table, maridaje de vinos) y estadísticas del restaurante. Audio ambiente vía CDN externo (Pixabay Night Jazz).
