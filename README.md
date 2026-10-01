@@ -27,6 +27,8 @@
 | [Características](#-características) | [Demo rápida](#-demo-rápida) | [Cómo funciona](#-cómo-funciona) |
 | [Estructura](#-estructura) | [Evaluación](#-evaluación) | [Créditos y licencia](#-créditos) |
 
+> 📜 Historial de avances: [`CHANGELOG.md`](./CHANGELOG.md) (Avance 1 entregado · Avance 2 en curso).
+
 <img src="./readme-assets/divider.svg" width="100%" height="6" alt="" />
 
 ## 🍽️ Qué es
@@ -171,6 +173,8 @@ taller-programacion-web/
 
 ## 📊 Evaluación
 
+### Avance 1 — HTML + CSS base (entregado 21/04/2025)
+
 | Criterio | Puntaje |
 | :-- | :-- |
 | Estructura y uso de HTML | 4 |
@@ -181,6 +185,21 @@ taller-programacion-web/
 | Integración de multimedia | 4 |
 | **Total** | **20** |
 
+### Avance 2 — CSS avanzado + responsivo (en curso)
+
+| Criterio | Estado |
+| :-- | :-- |
+| Tipografía personalizada (Space Grotesk, Google Fonts) | ✅ en código |
+| Íconos y vectores (35 SVG inline propios) | ✅ en código |
+| Animaciones y transiciones CSS | ✅ en código |
+| Diseño responsivo | ✅ en código |
+| Maquetación con Flexbox/Grid | ✅ en código |
+| Herramientas del navegador (evidencia DevTools) | ⏳ capturas/video |
+| Presentación y organización general | ✅ en código |
+| **Total** | **/20** |
+
+> Detalle completo en [`CHANGELOG.md`](./CHANGELOG.md). Puntajes por criterio del Avance 2 por confirmar (el documento llega incompleto).
+
 <img src="./readme-assets/divider.svg" width="100%" height="6" alt="" />
 
 ## 🆘 Soporte
@@ -190,9 +209,13 @@ taller-programacion-web/
 - Reportar un problema: abre un issue en el repositorio con captura + navegador usado.
 - Duda del curso: contactar al autor vía canal de la UTP.
 
-## 🗺️ Roadmap
+## 🗺️ Roadmap (Avance 2)
 
-- [ ] [TODO: confirmar pendientes — ej. galería de fotos propia, modo claro, despliegue en GitHub Pages]
+- [x] Tipografía externa, SVG propios, animaciones, responsive, Flex/Grid
+- [x] Fixes: favicon, `theme-color`, `og:image`, iframe diferido
+- [x] PDF decisiones (`docs/DECISIONES-DISENO.pdf`) + ZIP base (`entrega-avance2.zip`)
+- [ ] Capturas o video con DevTools (pasos abajo ⬇️) y re-comprimir el ZIP
+- [ ] [TODO: confirmar fecha límite del Avance 2]
 
 ## 🤝 Contributing
 
@@ -200,7 +223,7 @@ Proyecto académico individual — no se aceptan contribuciones externas por aho
 
 ## 📌 Estado del proyecto
 
-Académico / terminado para evaluación del curso. Sin mantenimiento activo previsto salvo ajustes solicitados por el docente.
+Académico UTP. **Avance 1** presentado en clase el 21/04/2025. **Avance 2** (CSS avanzado y diseño responsivo) en curso — ver [`CHANGELOG.md`](./CHANGELOG.md).
 
 <img src="./readme-assets/divider.svg" width="100%" height="6" alt="" />
 
@@ -212,7 +235,9 @@ Multimedia externa: video YouTube embebido + audio ambiente vía CDN de Pixabay 
 
 ## 📄 Licencia
 
-[TODO: definir licencia — si es solo académico, ej. "Uso académico, todos los derechos reservados" o agregar archivo `LICENSE` MIT].
+Copyright (c) 2026 **Javier Valle (U24265511)** — Todos los derechos reservados. Ver archivo [`LICENSE`](./LICENSE).
+
+> Proyecto académico original para el curso Taller de Programación Web (UTP). Se permite visualizar y evaluar con fines académicos; no se permite copiar ni redistribuir sin autorización del autor.
 
 <div align="center">
 <sub>La Casa del Sabor · UTP Taller de Programación Web · Hecho con HTML + CSS + JS vanilla</sub>
