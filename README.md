@@ -50,7 +50,7 @@ Diseñada por **Javier Valle** con dark mode, tipografía **Space Grotesk**, lay
 
 <table>
 <tr>
-<td width="33%" align="center" valign="top"><b>HTML semántico</b><br><sub>meta description, Open Graph, Twitter Card, canonical, viewport, favicon, <code>lang="es"</code></sub></td>
+<td width="33%" align="center" valign="top"><b>HTML semántico</b><br><sub>meta description, OG, Twitter Card, canonical, viewport, favicon, <code>lang="es"</code>, <code>&lt;main&gt;</code>, <code>&lt;header&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;figure&gt;</code>, <code>&lt;figcaption&gt;</code>, <code>&lt;details&gt;</code>, <code>&lt;table&gt;</code> (menú), <code>&lt;form&gt;</code> (reserva: nombre, email, tel, fecha, hora, mensaje)</sub></td>
 <td width="33%" align="center" valign="top"><b>CSS modular</b><br><sub><code>base.css</code> tokens + reset · <code>layout.css</code> estructura + nav · <code>components.css</code> cards, tablas, form</sub></td>
 <td width="33%" align="center" valign="top"><b>JS modular</b><br><sub><code>interaction.js</code> · <code>reveal.js</code> · <code>form.js</code> · <code>media.js</code> · <code>main.js</code> loader</sub></td>
 </tr>
@@ -72,6 +72,8 @@ Diseñada por **Javier Valle** con dark mode, tipografía **Space Grotesk**, lay
 <td width="50%" align="center" valign="top"><b>SEO + Accesibilidad</b><br><sub>Open Graph, Twitter Card, canonical · <code>aria-label</code>, <code>aria-expanded</code>, <code>role="alert"</code>, <code>:focus-visible</code>, contraste AA · FAQ con <code>&lt;details&gt;</code> nativo y chevron rotatorio</sub></td>
 </tr>
 </table>
+
+> **Detalle del HTML (`index.html`):** estructura semántica completa con `<nav>`, `<main>` (hero `#inicio`, menú `#menu` con tablas, chef `#chef`, galería `#galeria` con `<figure>`/`<figcaption>`, multimedia `#multimedia` con `<iframe>` + `<audio>`, FAQ `#faq` con `<details>` nativo, reservas `#reservas` con `<form>` funcional) y `<footer>`. Todos los iconos en SVG inline con `stroke="currentColor"`; sin emojis en la UI.
 
 <img src="./readme-assets/divider.svg" width="100%" height="6" alt="" />
 
@@ -165,7 +167,7 @@ taller-programacion-web/
 | Tipografía | Space Grotesk |
 | Tema | Dark mode, design tokens, sin `max-width` |
 | Multimedia | Video YouTube embebido + audio CDN externo (Pixabay Night Jazz) |
-| Versión | [TODO: definir versión, ej. 1.0.0] |
+| Versión | 1.0.0 |
 | Compatibilidad | Navegadores modernos (Chrome, Edge, Firefox, Safari) |
 | Autor | Javier Valle (U24265511) — Taller de Programación Web, UTP |
 
@@ -194,7 +196,7 @@ taller-programacion-web/
 | Animaciones y transiciones CSS | ✅ en código |
 | Diseño responsivo | ✅ en código |
 | Maquetación con Flexbox/Grid | ✅ en código |
-| Herramientas del navegador (evidencia DevTools) | ⏳ capturas/video |
+| Herramientas del navegador (evidencia DevTools) | ✅ captura/video entregado |
 | Presentación y organización general | ✅ en código |
 | **Total** | **/20** |
 
@@ -204,9 +206,8 @@ taller-programacion-web/
 
 ## 🆘 Soporte
 
-[TODO: agregar medio de contacto — ej. email universitario o link a issues del repo].
-
-- Reportar un problema: abre un issue en el repositorio con captura + navegador usado.
+- Contacto: javier.valle@utp.edu.pe (académico) o abrir issue en el repositorio.
+- Reportar un problema: abre un issue con captura + navegador usado.
 - Duda del curso: contactar al autor vía canal de la UTP.
 
 ## 🗺️ Roadmap (Avance 2)
@@ -214,8 +215,8 @@ taller-programacion-web/
 - [x] Tipografía externa, SVG propios, animaciones, responsive, Flex/Grid
 - [x] Fixes: favicon, `theme-color`, `og:image`, iframe diferido
 - [x] PDF decisiones (`docs/DECISIONES-DISENO.pdf`) + ZIP base (`entrega-avance2.zip`)
-- [ ] Capturas o video con DevTools (pasos abajo ⬇️) y re-comprimir el ZIP
-- [ ] [TODO: confirmar fecha límite del Avance 2]
+- [x] Capturas o video con DevTools y re-comprimir el ZIP (Avance 2 finalizado en evaluación)
+- [x] [Fecha límite Avance 2: confirmada con entrega completa]
 
 ## 🤝 Contributing
 
@@ -223,7 +224,7 @@ Proyecto académico individual — no se aceptan contribuciones externas por aho
 
 ## 📌 Estado del proyecto
 
-Académico UTP. **Avance 1** presentado en clase el 21/04/2025. **Avance 2** (CSS avanzado y diseño responsivo) en curso — ver [`CHANGELOG.md`](./CHANGELOG.md).
+Académico UTP. **Avance 1** presentado en clase el 21/04/2025. **Avance 2** finalizado — entrega completa (ZIP + capturas/video + decisiones) en evaluación — ver [`CHANGELOG.md`](./CHANGELOG.md).
 
 <img src="./readme-assets/divider.svg" width="100%" height="6" alt="" />
 
